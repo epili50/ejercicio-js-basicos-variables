@@ -9,9 +9,13 @@
  */
 
  let futureYear = 2050;
- let birthYear;
+ let birthYear = 1981;
+ let antesCumple = futureYear - 1 - birthYear;
+ let despuesCumple = futureYear - birthYear;
 
  let message;
+
+message = "En el año " + futureYear + " yo voy a tener " + antesCumple + " o " + despuesCumple + " años";
 
  console.log(message);
  

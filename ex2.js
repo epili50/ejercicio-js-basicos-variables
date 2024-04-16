@@ -14,10 +14,12 @@
  /**
   * En este punto, que valor tendrá 'variable4'. ¿Por qué? ¿Cómo podrías comprobarlo?
   */
+console.log("Valor de la variable4, apartado1: " + variable4);
 
-  variable2 = variable1;
+variable2 = variable1;
   variable4 = variable2 * 2;
 
 /**
   * En este punto, que valor tendrá 'variable4'. ¿Por qué? ¿Cómo podrías comprobarlo?
   */
+console.log("Valor de la variable4, apartado2: " + variable4);
